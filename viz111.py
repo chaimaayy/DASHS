@@ -166,7 +166,7 @@ with c4:
 #number-of-nuclear-weapons-tests
 with c5:
 
-    csv_file_path = 'Number-of-nuclear-weapons-tests (1)1.csv'
+    csv_file_path = 'number-of-nuclear-weapons-tests (1)1.csv'
     df = pd.read_csv(csv_file_path)
 
     df = df[['Entity', 'Year', 'Number of nuclear weapons tests']]
