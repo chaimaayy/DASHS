@@ -132,7 +132,7 @@ c4, c5, c6 = st.columns((3, 3, 3))
 #country-position-nuclear-weapons
 with c4:
 
-    uploaded_file = "country-position-nuclear-weapons (1).csv"
+    uploaded_file = "country-position-nuclear-weapons (2).csv"
     df = pd.read_csv(uploaded_file)
 
 
@@ -205,7 +205,7 @@ with c5:
 
 with c6:
     blue_palette = ['#0000FF', '#1E90FF', '#4682B4', '#87CEEB', '#87CEFA', '#00BFFF', '#87CEEB']
-    df = pd.read_csv('C:\\Users\\User\\Downloads\\approve 1 (3).csv')
+    df = pd.read_csv('approve 1 (4).csv')
     columns_of_interest = ['Year', 
                            ' Comprehensive Nuclear-Test-Ban Treaty', 
                            ' Nuclear Non-Proliferation Treaty',
